@@ -1,8 +1,9 @@
 # dirty-vimeo-transcript-downloader
 
 ## How to Use
-1. Get the Vimeo Video Link.
-    - If you are in a webinar, open the Development Tool (F12). Go to Sources, and look for the 10-digit number and see if it contains "player.vimeo.com". If yes, right click and copy the whole link.
+1. Get the Vimeo Video Link. If you are in a webinar, you can either:
+    - Right click the video and click "View Frame Source". Look for the link like ```https://player.vimeo.com/video/1234567890?h=a123456b78"``` in the head section; Or
+    - Open the Development Tool (F12). Go to Sources, and look for the 10-digit number and see if it contains "player.vimeo.com". If yes, right click and copy the whole link.
     ![Example Vimeo Link](images/image01.png)
 2. Go to the link with Chrome.
 3. Open the Transcript from the bottom right corner.
